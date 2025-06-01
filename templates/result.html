@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Result</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white shadow-lg rounded-lg p-10 max-w-2xl w-full border border-blue-100">
+    <h1 class="text-3xl font-bold text-center text-blue-900 mb-6">Your AI-Generated Resume Bullet Points</h1>
+    
+    <div class="bg-blue-50 text-blue-900 border border-blue-300 rounded-md p-4 whitespace-pre-wrap font-mono text-sm">
+      {{ output }}
+    </div>
+
+    <div class="text-center mt-6">
+      <a href="/" class="text-blue-800 hover:underline">← Generate another</a>
+    </div>
+  </div>
+
+</body>
+</html>
